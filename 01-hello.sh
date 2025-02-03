@@ -5,3 +5,4 @@
 echo "Hello Devops!"
 
 echo  "practice"
+echo "its clear "
