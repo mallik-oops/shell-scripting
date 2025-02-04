@@ -7,7 +7,7 @@ TIMESTAMP=$(date)
 
 echo "Script executed at: $TIMESTAMP"
 
-MULT=$(($NUMBER1*$NUMBER2))
+MULT=$(($NUMBER1/$NUMBER2))
 
 
 echo "MULI of $NUMBER1 and $NUMBER2 is: $MULT"
