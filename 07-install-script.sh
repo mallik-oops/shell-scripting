@@ -24,10 +24,6 @@ if [ $? -ne 0 ]
 then
     echo "Installing mysql ...Failure"
     exit 1
-else 
-    echo " Installing mysql ...Success"
-fi
-
 
 else 
     echo "Mysql  is already ...Installed"
