@@ -46,18 +46,14 @@ if [ $? -ne 0 ]
 then
     echo "Installing Git ...Failure"
     exit 1
-else 
-    echo "Git is installing Git ...Success"
-fi
-
 
 else 
     echo "Git is already ...Installed"
 
 fi 
 
-if [ $? -ne 0 ]
-then 
-    echo "Installing 
+# if [ $? -ne 0 ]
+# then 
+#     echo "Installing 
 
 
