@@ -7,16 +7,6 @@ then
     exit 1 #other than 0
 fi
 
-dnf install mysql -y
-
-if [ $? -ne 0 ]
-then    
-    echo "Installing MySqL .... FAILURE"
-    exit 1
-
-else    
-    echo "Installing MYSQL...SUCCES"
-fi
 
 dnf list installed MySql
 
@@ -34,15 +24,17 @@ else
 
 fi 
 
-dnf install git -y
+dnf install mysql -y
 
 if [ $? -ne 0 ]
-then 
-    echo "Installing Git....FAILURE"
+then    
+    echo "Installing MySqL .... FAILURE"
     exit 1
-else
-    echo "Installing Git...SUCCESS"
+
+else    
+    echo "Installing MYSQL...SUCCES"
 fi
+
 
 dnf list installed git 
 
@@ -59,6 +51,17 @@ else
     echo "Git is already ...Installed"
 
 fi 
+
+
+dnf install git -y
+
+if [ $? -ne 0 ]
+then 
+    echo "Installing Git....FAILURE"
+    exit 1
+else
+    echo "Installing Git...SUCCESS"
+fi
 
 
 
