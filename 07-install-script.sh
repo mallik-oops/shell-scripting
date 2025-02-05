@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USERID=$(id -u)
-if [ $USERID -ne 0]
+if [ $USERID -ne 0 ]
 then
     echo "ERROR:: You must have sudo acess to excute this script"
     exit 1 #other than 0
@@ -20,7 +20,7 @@ fi
 
 dnf install git -y
 
-if [ $? -ne 0]
+if [ $? -ne 0 ]
 then 
     echo "Installing Git....FAILURE"
     exit 1
