@@ -16,7 +16,6 @@ then
     exit 1
 else 
     echo "Installing MySQL ...Success"
-fi
 
 
 else 
